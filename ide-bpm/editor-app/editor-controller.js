@@ -41,7 +41,8 @@ angular.module('flowableModeler')
 
         var modelUrl;
         if ($routeParams.modelId) {
-            modelUrl = FLOWABLE.URL.getModel($routeParams.modelId);
+        	var modelId = $routeParams.workspace + '/' + $routeParams.project + '/' + $routeParams.path;
+            modelUrl = FLOWABLE.URL.getModel(modelId);
         } else {
             modelUrl = FLOWABLE.URL.newModelInfo();
         }
@@ -392,7 +393,8 @@ angular.module('flowableModeler')
     // Always needed, cause the DOM element on wich the scroll event listeners are attached are changed for every new model
     initScrollHandling();
     
-    var modelId = $routeParams.modelId;
+//    var modelId = $routeParams.modelId;
+    var modelId = $routeParams.workspace + '/' + $routeParams.project + '/' + $routeParams.path;
 	editorManager.setModelId(modelId);
 	//we first initialize the stencilset used by the editor. The editorId is always the modelId.
 	$http.get(FLOWABLE.URL.getModel(modelId)).then(function (response) {
