@@ -326,12 +326,12 @@ flowableModeler
                 }
             };
 
-            $http.get(FLOWABLE.APP_URL.getAccountUrl())
-	        	.success(function (data, status, headers, config) {
-	              	$rootScope.account = data;
-	               	$rootScope.invalidCredentials = false;
-	 				$rootScope.authenticated = true;
-	          	});
+//            $http.get(FLOWABLE.APP_URL.getAccountUrl())
+//	        	.success(function (data, status, headers, config) {
+//	              	$rootScope.account = data;
+//	               	$rootScope.invalidCredentials = false;
+//	 				$rootScope.authenticated = true;
+//	          	});
 
 	        $rootScope.logout = function () {
                 $rootScope.authenticated = false;
