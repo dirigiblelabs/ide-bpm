@@ -19,4 +19,4 @@ exports.getEditor = function() {
 			"contentTypes":["application/bpmn+xml"]
 	};
 	return editor;
-}
+};
