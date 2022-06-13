@@ -78,7 +78,7 @@ FLOWABLE.TOOLBAR = {
                             name: modelMetaData.modelId.substring(modelMetaData.modelId.lastIndexOf('/') + 1),
                             path: modelMetaData.modelId.substring(modelMetaData.modelId.indexOf('/', 1)),
                             contentType: 'application/bpmn+xml', // TODO: Take this from data-parameters
-                            workspace: modelMetaData.modelId.substring(1, modelMetaData.modelId.indexOf('/', 1)),
+                            workspace: modelMetaData.modelId.substring(0, modelMetaData.modelId.indexOf('/', 1)),
                         }, 'ide.file.saved');
                         window.messageHub.post({ message: `File '${modelMetaData.modelId}' saved` }, 'ide.status.message');
                     })
