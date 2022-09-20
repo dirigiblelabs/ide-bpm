@@ -1,7 +1,7 @@
 # BPM Plugin for Eclipse Dirigible
 
 [![Eclipse License](http://img.shields.io/badge/license-Eclipse-brightgreen.svg)](LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/dirigiblelabs/ide-console.svg)](https://github.com/dirigiblelabs/ide-console/graphs/contributors)
+[![GitHub contributors](https://img.shields.io/github/contributors/dirigiblelabs/ide-bpm.svg)](https://github.com/dirigiblelabs/ide-bpm/graphs/contributors)
 
 ## Overview
 
