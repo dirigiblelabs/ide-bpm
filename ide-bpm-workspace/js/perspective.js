@@ -16,7 +16,7 @@ IDEBPMWorkspacePerspective.config(["messageHubProvider", function (messageHubPro
 }]);
 
 // Initialize controller
-IDEBPMWorkspacePerspective.controller("ExampleViewController", ["$scope", "messageHub", function ($scope, messageHub) {
+IDEBPMWorkspacePerspective.controller("BPMWorkspaceController", ["$scope", "messageHub", function ($scope, messageHub) {
 
     $scope.formItems = [
         {

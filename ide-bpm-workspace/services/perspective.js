@@ -11,9 +11,9 @@
  */
 const perspectiveData = {
 	id: "ide-bpm-workspace", // ID used for sidebar indication and layout settings
-	name: "BPM Workspace", // User-facing name
+	name: "Business Processes Workspace", // User-facing name
 	link: "../ide-bpm-workspace/perspective.html", // Link to the main perspective view
-	order: "1000", // Used to sort the tabs in the sidebar
+	order: "160", // Used to sort the tabs in the sidebar
 	icon: "/services/v4/web/resources/unicons/process.svg",
 };
 if (typeof exports !== 'undefined') {

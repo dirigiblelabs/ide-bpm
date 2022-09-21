@@ -13,7 +13,7 @@ const editorData = {
 	id: "bpmImage",
 	factory: "frame",
 	region: "center",
-	label: "BPM Image Viewer",
+	label: "Image Viewer",
 	link: "../ide-bpm-workspace/bpm-image-viewer.html",
 	contentTypes: [
 		"image/jpeg",
